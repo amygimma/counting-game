@@ -1,18 +1,23 @@
 Counting-game
 =============
 
+#Game Rules
+
+Start the game by tweeting 1 at the bot
+Reply to that tweet to increase the numbers
+You can t reply to yourself
+The winner is the latest tweet within 10 minutes from the first tweet.
+The bot then tweets at the winnner
+
+#Website
+Who the last winner is on the homepage
+Leader board of who's won the most games
+
 Getting Started
 ---------------
 
-This repository comes equipped with a self-setup script!
-
-    % ./bin/setup
-
-After setting up, you can run the application using [foreman]:
-
-    % foreman start
-
-[foreman]: http://ddollar.github.io/foreman/
+`copy config/application.sample.yml config/application.yml`
+`rails s`
 
 Guidelines
 ----------

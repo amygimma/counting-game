@@ -8,7 +8,8 @@ gem 'coffee-rails'
 gem 'delayed_job_active_record', '>= 4.0.0'
 gem 'email_validator'
 gem 'jquery-rails'
- gem 'neat'
+
+gem 'neat'
 gem 'pg'
 gem 'rack-timeout'
 gem 'rails', '>= 4.0.0'
@@ -30,7 +31,7 @@ group :development, :test do
 end
 
 group :test do
-#  gem 'capybara-webkit', '>= 1.0.0'
+  # gem 'capybara-webkit', '>= 1.0.0'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'shoulda-matchers'
